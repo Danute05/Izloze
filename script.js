@@ -1,18 +1,23 @@
 const vardi = ['Jana Krūmiņa', 'Aivars Radziņš', 'Jānis Bērziņš', 'Elina Bileskalna', 'Laura Priede'];
 const balva = ['Dators', 'Telefons', 'Mašīna', 'Televizors'];
-const naudaKopa = 12000;
-
+const naudaKopa = 100000;
+let uzvaretajuSkaits = 5;
+let rindas = document.querySelector('.rindas');
+rindas.innerHTML = ' ';
 for (let i = 0; i < uzvaretajuSkaits; i++) {
-
     let rand = Math.random() * vardi.length;
     rand = Math.floor(rand);//noapaļo uz leju
-<tr>
-    <td>${i+1}</td>
-    <td>${uzvaretajs}</td>
-</tr>
+    let uzvaretajs = vardi[rand];
+    rindas.innerHTML +=
+        <tr>
+            <td>${i + 1}</td>
+            <td>${uzvaretajs}</td>
+            <td>${laimesti}</td>
+            let uzvaretajs = vardi[rand];
+        </tr>//izvade vairakas rindas
 }
-let uvaretajs = vardi[rand];
-let rindas = document.querySelector('.rindas');
-Math.random = Math.random() * 10;
-console.log(vardi[rand]);
 rindas.innerHTML += ``//pievieno+,lai pieskaitītu nākamo
+
+
+
+
