@@ -6,11 +6,13 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
 
     let rand = Math.random() * vardi.length;
     rand = Math.floor(rand);//noapaļo uz leju
-
+<tr>
+    <td>${i+1}</td>
+    <td>${uzvaretajs}</td>
+</tr>
 }
 let uvaretajs = vardi[rand];
 let rindas = document.querySelector('.rindas');
 Math.random = Math.random() * 10;
 console.log(vardi[rand]);
 rindas.innerHTML += ``//pievieno+,lai pieskaitītu nākamo
-<tr>
