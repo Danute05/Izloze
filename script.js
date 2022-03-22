@@ -1,5 +1,5 @@
 const vardi = ['Jana Krūmiņa', 'Aivars Radziņš', 'Jānis Bērziņš', 'Elina Bileskalna', 'Laura Priede'];
-const balva = ['Dators', 'Telefons', 'Mašīna', 'Televizors'];
+const balva = ['Dators', 'Telefons', 'Mašīna', 'Televizors','Ledusskapis'];
 const naudaKopa = 100000;
 let uzvaretajuSkaits = 5;
 let rindas = document.querySelector('.rindas');
