@@ -14,7 +14,7 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
             <td>${uzvaretajs}</td>
             <td>${laimesti}</td>
             let uzvaretajs = vardi[rand];
-        </tr>//izvade vairakas rindas
+        </tr>//izvada vairakas rindas
 }
 rindas.innerHTML += ``//pievieno+,lai pieskaitītu nākamo
 
